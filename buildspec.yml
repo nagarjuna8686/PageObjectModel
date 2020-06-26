@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
+      - mvn surefire-report:report
 reports:
   SurefireReports:
     files:
